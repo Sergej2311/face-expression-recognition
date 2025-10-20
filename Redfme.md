@@ -1,3 +1,0 @@
-# Gesichtsausdruckserkennung
-
-Readme.
