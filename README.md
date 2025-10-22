@@ -1,6 +1,6 @@
 # 🧠 Face Emotion Recognition – CNN Projekt
 
-Datensatz von Kaggle: https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787&sortBy=voteCount
+Datensatz von Kaggle: https://www.kaggle.com/datasets/msambare/fer2013/data
 
 ---
 
