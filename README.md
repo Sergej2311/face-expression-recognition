@@ -63,6 +63,43 @@ Beispielhafte Visualisierungen:
 - Verlauf von **Loss** und **Accuracy** über die Epochen
 - Darstellung der **Confusion Matrix** (matplotlib)
 
+## 📊 Ergebnisvisualisierung
+
+### 1️⃣ Accuracy-Verlauf
+Diese Grafik zeigt, wie sich die **Trainings- und Validierungsgenauigkeit (Accuracy)** über die 25 Epochen entwickelt hat.  
+Man erkennt einen leichten, aber stetigen Anstieg, was darauf hinweist, dass das Modell mit der Zeit lernt, Emotionen besser zu unterscheiden.  
+Die Kurven verlaufen relativ nah beieinander – ein Hinweis darauf, dass **kein starkes Overfitting** aufgetreten ist.
+
+---
+
+### 2️⃣ Loss-Verlauf
+Hier ist der **Trainings- und Validierungsverlust (Loss)** über die Epochen dargestellt.  
+Ein sinkender Verlauf zeigt, dass das Modell im Laufe des Trainings **bessere Vorhersagen** trifft.  
+Gegen Ende flacht die Kurve ab, was bedeutet, dass sich das Modell dem **Lernplateau** nähert.
+
+---
+
+### 3️⃣ Confusion Matrix
+Die **Confusion Matrix** zeigt, wie gut die einzelnen Emotionen erkannt wurden.  
+Die Diagonale (von oben links nach unten rechts) steht für **korrekte Klassifikationen**.  
+Dunklere Felder auf der Diagonale bedeuten häufige Treffer – hier vor allem bei **„happy“, „neutral“ und „surprise“**.  
+Helle Bereiche außerhalb der Diagonale deuten auf **Verwechslungen** hin, z. B. zwischen **„fear“** und **„sad“**.
+
+---
+
+### 4️⃣ Classification Report
+Der **Klassifikationsbericht** fasst die wichtigsten Metriken zusammen:
+
+| Metrik | Bedeutung |
+|--------|------------|
+| **Precision** | Wie viele erkannte Emotionen sind tatsächlich korrekt. |
+| **Recall** | Wie viele echte Emotionen wurden erkannt. |
+| **F1-Score** | Kombiniert Präzision und Recall zu einem fairen Durchschnitt. |
+| **Accuracy** | Anteil aller korrekt klassifizierten Bilder. |
+
+Das Modell erreicht eine **Gesamtgenauigkeit von ca. 42 %**,  
+wobei die Klassen **„happy“** und **„surprise“** deutlich besser erkannt werden als z. B. **„fear“** oder **„disgust“**.
+
 <img width="692" height="593" alt="Screenshot 2025-10-21 at 17 19 48" src="https://github.com/user-attachments/assets/c07b6051-ebca-45d0-80d7-5caa6c12c5f1" />
 <img width="629" height="477" alt="Screenshot 2025-10-21 at 17 19 33" src="https://github.com/user-attachments/assets/3541c3be-1a81-4c9e-90cf-49c64bc59834" />
 <img width="630" height="478" alt="Screenshot 2025-10-21 at 17 19 21" src="https://github.com/user-attachments/assets/d2a49a74-945d-4569-9eb7-77b06b209735" />
