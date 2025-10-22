@@ -62,3 +62,9 @@ Beispielhafte Visualisierungen:
 
 - Verlauf von **Loss** und **Accuracy** über die Epochen
 - Darstellung der **Confusion Matrix** (matplotlib)
+
+<img width="482" height="336" alt="Screenshot 2025-10-21 at 17 24 52" src="https://github.com/user-attachments/assets/8d515474-7041-40d7-a1c7-f0a9716efdc0" />
+<img width="692" height="593" alt="Screenshot 2025-10-21 at 17 19 48" src="https://github.com/user-attachments/assets/c07b6051-ebca-45d0-80d7-5caa6c12c5f1" />
+<img width="629" height="477" alt="Screenshot 2025-10-21 at 17 19 33" src="https://github.com/user-attachments/assets/3541c3be-1a81-4c9e-90cf-49c64bc59834" />
+<img width="630" height="478" alt="Screenshot 2025-10-21 at 17 19 21" src="https://github.com/user-attachments/assets/d2a49a74-945d-4569-9eb7-77b06b209735" />
+
