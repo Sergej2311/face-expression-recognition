@@ -1,9 +1,6 @@
 # 🧠 Face Emotion Recognition – CNN Projekt
 
-Dieses Projekt erkennt **Gesichtsausdrücke** anhand von Bildern mithilfe eines **Convolutional Neural Networks (CNN)**.
-Daten: https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787&sortBy=voteCount
-Es basiert auf dem **FER-Datensatz (Facial Expression Recognition)** mit **7 Emotionen**
-(z. B. Freude, Trauer, Wut, Angst, Überraschung, Ekel, Neutral).
+Datensatz von Kaggle: https://www.kaggle.com/datasets/msambare/fer2013/code?datasetId=786787&sortBy=voteCount
 
 ---
 
